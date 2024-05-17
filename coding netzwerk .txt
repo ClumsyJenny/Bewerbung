@@ -1,0 +1,11 @@
+inp = ""
+while inp != "end":
+    inp = input("command> ").strip()
+    if inp == "start":
+        print("starte ...")
+    elif inp == "bla":
+        print("blub foo!")
+    elif inp == "end":
+        print("Tschüss mit Ü und Tschau mit AU!")
+    else:
+        print("ERROR: KOMMANDO UNBEKANNT!")
